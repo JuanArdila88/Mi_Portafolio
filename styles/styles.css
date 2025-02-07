@@ -1,0 +1,129 @@
+/* Se ubican las reglas de diseño para el cuerpo de las paginas*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*Se le brinda el diseño a la fuente exportada*/
+.indie-flower-regular {
+    font-family: "Indie Flower", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+header {
+    background: rgb(63,180,251);
+    font-family: "Indie Flower", serif;
+    background: radial-gradient(circle, rgba(63,180,251,1) 9%, rgba(45,64,96,1) 74%);
+    color: white;
+    text-decoration: dotted;
+    padding: 1em 0;
+    text-align: center;
+}
+header>img{
+    height: 120;
+    border-radius: 60px;
+    border-color: #18b2f5;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: #546ae8;
+    text-transform: uppercase;
+    border-color: #18b2f5;
+    border-radius: 8px;
+    border-style: inset;
+}
+    
+    
+nav ul li a:active{
+    color: red;
+    border-style: inset;
+    border-radius: 10px;
+    border-color: #0e6ad3;
+    background-color: #0e6ad3;
+    width: 3px;
+    height: 3px;
+}
+
+section {
+    margin: 2em auto;
+    padding: 1em;
+    max-width: 800px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logos{
+    padding: 0.20em;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10;
+}
+.Referencias{
+    text-align: center;
+    width: 25px;
+    height: 15px;
+
+}
+.contec_form{
+    text-align: center;
+    background-color:white;
+
+}
+.form{
+    padding: 0.30em;
+    text-align: center;   
+}
+.form>button{
+    text-align: left;
+    width: 9%;
+    height: 9%;
+    padding: 0.25;
+}
+
+form label {
+    display: block;
+    margin-top: 2em;
+    text-align: left;
+    margin-left: 10rem;
+}
+
+form input, form textarea {
+    width: 60%;
+    padding: 0.4em;
+    margin-top: 0.9em;
+}
+
+form button {
+    display: block;
+    background: #333;
+    color: white;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+form>button:hover{
+    background: #555;
+
+    
+}
+
